@@ -11,9 +11,9 @@ function increaseRankBy(n){
  let ranks=document.querySelectorAll('.ranked-list')
  ranks.forEach(rank=>{
    let children=rank.children
-   return children.forEach(child =>{
-     retrun child.innerHTML=parseInt(child.innerHTML)+n
-   })
+   for(i=0; i<children.length; i++){
+     children[i].innerHTML=parseInt(children[i].innerHTML)+n
+   }
  })
 }
 
