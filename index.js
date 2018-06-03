@@ -12,7 +12,7 @@ function increaseRankBy(n){
  ranks.forEach(rank=>{
    let children=rank.children
    return children.forEach(child =>{
-     child.innerHTML=parseInt(child.innerHTML)+n
+     retrun child.innerHTML=parseInt(child.innerHTML)+n
    })
  })
 }
