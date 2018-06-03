@@ -18,8 +18,8 @@ function increaseRankBy(n){
 }
 
 function deepestChild(){
- let node=document.querySelector('#grand-node')
- let theDeepest=node;
+ let node=document.querySelectorAll('#grand-node')
+ let theDeepest=node[0];
  while (theDeepest.children){
    theDeepest=theDeepest.children[0]
  }
