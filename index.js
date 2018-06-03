@@ -23,5 +23,5 @@ function deepestChild(){
  while (theDeepest.children){
    theDeepest=theDeepest.children[0]
  }
-
+ return theDeepest
 }
